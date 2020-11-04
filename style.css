@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://cdn.hipwallpaper.com/m/35/34/gQA9lX.jpg");
+    width: 100%;
+    padding: 50px;
+    min-width: 320px;
+    max-width: 1200px;
+    margin: auto;
+    margin-left: 200px;
+}
+
+.col {
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 9%;
+    border: 1px solid black;
+}
+
+.col:first-child {
+    margin-left: 0px;
+}
+
+.col:last-child {
+    margin-right: 0px;
+}
+
+.one, .two, .three, .four, .five, .six, .seven, .eight {
+    padding: 0;
+    width: 100%;
+    min-height: 1px;
+    float: left;
+}
+
+.eight {
+    margin-bottom: 50px;
+}
+
+.one div:nth-of-type(odd), .three div:nth-of-type(odd), .five div:nth-of-type(odd), .seven div:nth-of-type(odd) {
+    background-color: #41220da9;
+}
+
+.one div:nth-of-type(even), .three div:nth-of-type(even), .five div:nth-of-type(even), .seven div:nth-of-type(even) {
+    background-color: #d39c7498;
+}
+
+.two div:nth-of-type(even), .four div:nth-of-type(even), .six div:nth-of-type(even), .eight div:nth-of-type(even) {
+    background-color: #41220da9;
+}
+
+.two div:nth-of-type(odd), .four div:nth-of-type(odd), .six div:nth-of-type(odd), .eight div:nth-of-type(odd) {
+    background-color: #d39c7498;
+}
+
+.fas {
+    font-size: 4rem;
+    transition: all 0.5s;
+}
+
+div {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.seven .fas, .eight .fas {
+    color: whitesmoke;
+}
+
+.a:hover .fas {
+    color: white;
+    display: inline-block;
+    font-size: 5rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+.I:hover .fas {
+    color: black;
+    display: inline-block;
+    font-size: 5rem;
+    text-align: center;
+    transition: all 0.5s;
+}
+
+
+div div:hover {
+    box-shadow: 5px 5px 5px whitesmoke;
+}
+
+div #lte {
+    font-size: 40px;
+}
+
+.Z {
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 9%;
+    border: solid 1px black;
+    height: 40px;
+    font-size: 20px;
+    background-color: black !important;
+    color: white;
+    padding-top: 6px;
+}
+
+.Z:hover, .q:hover, .none:hover {
+    box-shadow: none !important;
+}
+
+.q {
+    height: 100px;
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 50px;
+    border: solid 1px black;
+    background-color: black !important;
+    color: white;
+    padding-top: 40px;
+}
+
+.none {
+    border-radius: 8px;
+    margin-right: 1px;
+    margin-left: 1px;
+    display: block;
+    float: left;
+    width: 4.5%;
+    height: 40px;
+    font-size: 20px;
+}
+
+/* @media all and (max-width:900px) {
+    * {
+        display: none;
+    }
+} */
