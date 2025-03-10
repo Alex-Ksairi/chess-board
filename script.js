@@ -2,15 +2,16 @@ document.addEventListener("DOMContentLoaded", () => {
     const container = document.getElementById("container");
 
     const initialBoard = [
-        ["r", "n", "b", "q", "k", "b", "n", "r"], // Black major pieces
-        ["p", "p", "p", "p", "p", "p", "p", "p"], // Black pawns
+        ["♜", "♞", "♝", "♛", "♚", "♝", "♞", "♜"],
+        ["♟", "♟", "♟", "♟", "♟", "♟", "♟", "♟"],
         ["", "", "", "", "", "", "", ""],
         ["", "", "", "", "", "", "", ""],
         ["", "", "", "", "", "", "", ""],
         ["", "", "", "", "", "", "", ""],
-        ["P", "P", "P", "P", "P", "P", "P", "P"], // White pawns
-        ["R", "N", "B", "Q", "K", "B", "N", "R"]  // White major pieces
-    ];
+        ["♙", "♙", "♙", "♙", "♙", "♙", "♙", "♙"],
+        ["♖", "♘", "♗", "♕", "♔", "♗", "♘", "♖"]
+    ];    
+    
 
     const board = document.createElement("div");
     board.classList.add("chessboard");
